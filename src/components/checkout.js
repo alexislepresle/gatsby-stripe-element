@@ -78,7 +78,7 @@ class CheckoutForm extends Component {
         console.log(res.statusText)
       })
       .catch(error => {
-        console.log(error)
+        console.log("erreur",error)
         console.log(error)
         console.log(error)
         this.onError()
