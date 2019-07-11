@@ -88,7 +88,7 @@ class CheckoutForm extends Component {
         <hr className="is-dark"/>
         <form onSubmit={this.handleSubmit}>
           <div className="field">
-            <div className="control">
+            <div className="control has-icons-left">
                 <input 
                     name="username"
                     className="input" 
@@ -104,7 +104,7 @@ class CheckoutForm extends Component {
             </div>
           </div>  
           <div className="field">
-            <div className="control">
+            <div className="control has-icons-left">
                 <input 
                     name="mail"
                     className="input" 
