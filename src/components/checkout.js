@@ -9,9 +9,8 @@ class CheckoutForm extends Component {
     this.state = {
       username: '',
       mail: '',
-      isSuccess: null,
-      isError: null,
-      isErrorRemplissage: null,
+      isSuccess: true,
+      isError: null
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -71,16 +70,8 @@ class CheckoutForm extends Component {
         },
       })
       axios.post('https://stripe-element.netlify.com/.netlify/functions/purchase', charge)
-      .then(res => {
-        this.onSuccess()
-        console.log(res.status)
-        console.log(res.data)
-        console.log(res.statusText)
-      })
       .catch(error => {
         console.log("erreur",error)
-        console.log(error)
-        console.log(error)
         this.onError()
       })
       this.addNotification()
