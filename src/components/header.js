@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       <div className="navbar-item">
         <div className="field">
           <p className="control">
-            <a className="bd-tw-button button" data-social-network="Github" href="https://github.com/">
+            <a className="bd-tw-button button" data-social-network="Github" href="https://github.com/alexislepresle/gatsby-stripe-element">
               <span className="icon">
                 <i className="fab fa-github"></i>
               </span>

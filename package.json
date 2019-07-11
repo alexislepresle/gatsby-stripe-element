@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "Little project with Gatsby.js and Stripe Element",
+  "description": "💳 Simple demonstration of stripe element integration with Gatsby ",
   "version": "0.1.0",
   "author": "Alexis Lepresle <contact@alexislepresle.com>",
   "dependencies": {
@@ -35,18 +35,15 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "copy": "cp lambda-dev/purchase.js lambda/purchase.js",
+    "lambda-serve": "yarn run copy && netlify-lambda serve lambda-dev",
+    "build": "gatsby build && yarn run copy && netlify-lambda build lambda",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/alexislepresle/gatsby-stripe-element"
   }
 }
