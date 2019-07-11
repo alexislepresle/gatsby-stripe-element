@@ -89,28 +89,34 @@ class CheckoutForm extends Component {
         <form onSubmit={this.handleSubmit}>
           <div className="field">
             <div className="control">
-              <input 
-                name="username"
-                className="input" 
-                type="text" 
-                placeholder="Your name"               
-                onChange={this.handleChange}
-                value={this.state.username}
-                required
-              />
+                <input 
+                    name="username"
+                    className="input" 
+                    type="text" 
+                    placeholder="Your name"               
+                    onChange={this.handleChange}
+                    value={this.state.username}
+                    required
+                />
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user-alt"></i>
+                </span>
             </div>
           </div>  
           <div className="field">
             <div className="control">
-              <input 
-                name="mail"
-                className="input" 
-                type="text" 
-                placeholder="Your E-mail"               
-                onChange={this.handleChange}
-                value={this.state.mail}
-                required
-              />
+                <input 
+                    name="mail"
+                    className="input" 
+                    type="text" 
+                    placeholder="Your E-mail"               
+                    onChange={this.handleChange}
+                    value={this.state.mail}
+                    required
+                />
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
             </div>
           </div> 
           <div className="field">
