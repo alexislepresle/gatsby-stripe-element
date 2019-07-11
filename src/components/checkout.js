@@ -70,7 +70,7 @@ class CheckoutForm extends Component {
           email: this.state.mail,
         },
       })
-      axios.post('https://upbeat-spence-a826f6.netlify.com/.netlify/functions/purchase', charge)
+      axios.post('https://stripe-element.netlify.com/.netlify/functions/purchase', charge)
       .catch(this.onError())
       if(reponse.ok){
         this.onSuccess()
