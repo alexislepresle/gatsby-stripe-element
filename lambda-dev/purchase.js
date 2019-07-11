@@ -1,4 +1,4 @@
-var stripe = require("stripe")("sk_test_BiZbA7CYWZbZ9rzU6ZaMSlDq");
+var stripe = require("stripe")("sk_test_Z5g4QdJmKA6G3UVjySP1PYhk00GB5BHNcK");
 
 module.exports.handler = (event, context, callback) => {
 

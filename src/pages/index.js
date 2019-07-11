@@ -7,7 +7,7 @@ import CheckoutForm from '../components/checkout';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <StripeProvider apiKey="pk_test_6fU7LS7iorcNFoieFsMlVxl1">
+    <StripeProvider apiKey="pk_test_b9ub5ff6DVMZCCFjWBIBUdMM00uQQ9LUkf">
       <Elements>
         <CheckoutForm />
       </Elements>
