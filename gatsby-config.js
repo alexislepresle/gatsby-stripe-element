@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby-Stripe-Element`,
-    description: `Little project with Gatsby.js and Stripe Element`,
+    description: `💳 Simple demonstration of stripe element integration with Gatsby`,
     author: `alexislepresle`,
   },
   plugins: [
