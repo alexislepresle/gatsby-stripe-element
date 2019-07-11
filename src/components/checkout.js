@@ -71,7 +71,7 @@ class CheckoutForm extends Component {
         },
       })
       axios.post('https://stripe-element.netlify.com/.netlify/functions/purchase', charge)
-      .catch(this.onError())
+      .catch(console.log(error) && this.onError())
       if(reponse.ok){
         this.onSuccess()
       }
