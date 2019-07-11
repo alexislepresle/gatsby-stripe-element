@@ -17,7 +17,7 @@ This project is built with Gatsby, Bulma, Stripe Element, and Netlify Functions.
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```sh
-    # create a new Gatsby site using the default starter
+    # create a new Gatsby site using the gatsby-stripe-element
     gatsby new gatsby-stripe-element https://github.com/alexislepresle/gatsby-stripe-element
     ```
 
@@ -26,7 +26,7 @@ This project is built with Gatsby, Bulma, Stripe Element, and Netlify Functions.
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
+    cd gatsby-stripe-element/
     gatsby develop
     ```
 
