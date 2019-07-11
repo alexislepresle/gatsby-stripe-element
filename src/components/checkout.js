@@ -61,7 +61,7 @@ class CheckoutForm extends Component {
   }
   handleSubmit(ev){
     ev.preventDefault();
-    let reponse = this.props.stripe.createToken().then(({token}) =>{
+    this.props.stripe.createToken().then(({token}) =>{
       const charge = JSON.stringify({
         token,
         charge: {
@@ -71,10 +71,8 @@ class CheckoutForm extends Component {
         },
       })
       axios.post('https://stripe-element.netlify.com/.netlify/functions/purchase', charge)
-      .catch(console.log(reponse.error) && this.onError())
-      if(reponse.ok){
-        this.onSuccess()
-      }
+      .catch(this.onError())
+      this.onSuccess()
       this.addNotification()
     })
   }
@@ -98,8 +96,8 @@ class CheckoutForm extends Component {
                     value={this.state.username}
                     required
                 />
-                <span class="icon is-small is-left">
-                    <i class="fas fa-user-alt"></i>
+                <span className="icon is-small is-left">
+                    <i className="fas fa-user-alt"></i>
                 </span>
             </div>
           </div>  
@@ -114,8 +112,8 @@ class CheckoutForm extends Component {
                     value={this.state.mail}
                     required
                 />
-                <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
+                <span className="icon is-small is-left">
+                    <i className="fas fa-envelope"></i>
                 </span>
             </div>
           </div> 
