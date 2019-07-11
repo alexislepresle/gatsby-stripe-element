@@ -28,6 +28,7 @@ This project is built with Gatsby, Bulma, Stripe Element, and Netlify Functions.
     ```sh
     cd gatsby-stripe-element/
     gatsby develop
+    netlify-lambda serve <source-folder>
     ```
 
 3.  **Open the source code and start editing!**
