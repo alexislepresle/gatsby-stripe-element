@@ -2,7 +2,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-   ![Gatsby-Stripe-Element logo](https://github.com/alexislepresle/gatsby-stripe-element/blob/master/src/images/Gatsby-Stripe-Element.png "Gatsby-Stripe-Element logo")
+💳💳
 </p>
 <h1 align="center">
   Gatsby with Stripe Element
