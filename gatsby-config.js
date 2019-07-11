@@ -24,7 +24,7 @@ module.exports = {
         short_name: `Gatsby-StripeElement`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: "💳", 
+        icon: `src/images/gatsby-icon.png`, 
       },
     },
   ],
