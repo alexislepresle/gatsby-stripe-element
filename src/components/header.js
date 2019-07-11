@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-item">
-      <Link to="/" className="subtitle" > 💳 | Stripe Element with Gatsby.js</Link>
+      <Link to="/" className="subtitle" > <span role="img" aria-label="sheep">💳</span> | Stripe Element with Gatsby.js</Link>
     </div>
     <div className="navbar-end">
       <div className="navbar-item">

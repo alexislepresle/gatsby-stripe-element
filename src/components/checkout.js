@@ -71,7 +71,7 @@ class CheckoutForm extends Component {
         },
       })
       axios.post('https://stripe-element.netlify.com/.netlify/functions/purchase', charge)
-      .catch(console.log(reponse) && this.onError())
+      .catch(console.log(reponse.error) && this.onError())
       if(reponse.ok){
         this.onSuccess()
       }
@@ -83,7 +83,7 @@ class CheckoutForm extends Component {
     <div>
       <ReactNotification ref={this.notificationDOMRef} />
       <div className="checkout box" style={{maxWidth:"350px"}}>
-      <p className="title"> 💸 Give me your money !</p>
+      <p className="title"> <span role="img" aria-label="sheep">💸</span> Give me your money !</p>
       <p className="is-2 is-bold">Use any <b>name</b>, <b>email</b>, <b>4242 4242 4242 4242 as the credit card number</b>, any <b>3 digit number</b>, any <b>future date of expiration</b> and <b>postal code</b>.</p>
         <hr className="is-dark"/>
         <form onSubmit={this.handleSubmit}>
