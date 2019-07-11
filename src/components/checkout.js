@@ -74,7 +74,6 @@ class CheckoutForm extends Component {
       .then(res => {
         console.log('Transaction processed successfully')
         this.onSuccess()
-        return res.json()
       })
       .catch(error => {
         console.error('Error:', error)
