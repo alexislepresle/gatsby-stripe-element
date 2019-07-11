@@ -83,7 +83,7 @@ class CheckoutForm extends Component {
     <div>
       <ReactNotification ref={this.notificationDOMRef} />
       <div className="checkout box" style={{width:"300px"}}>
-      <p className="title">Give me your money !</p>
+      <p className="title"> 💸 Give me your money !</p>
       <p className="is-2 is-bold">Use any <b>name</b>, <b>email</b>, <b>4242 4242 4242 4242 as the credit card number</b>, any <b>3 digit number</b>, any <b>future date of expiration</b> and <b>postal code</b>.</p>
         <hr className="is-dark"/>
         <form onSubmit={this.handleSubmit}>
