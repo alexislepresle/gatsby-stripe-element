@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55942183-8ef7-4cc7-9754-8fb8c9fda1cc/deploy-status)](https://app.netlify.com/sites/stripe-element/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
     💳
