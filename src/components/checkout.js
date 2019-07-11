@@ -44,7 +44,7 @@ class CheckoutForm extends Component {
         dismissable: { click: true }
       });
     }
-    else {
+    else if(this.state.isError === true){
       this.notificationDOMRef.current.addNotification({
         title: "Upssss",
         message: "An error with your credit card!  😓",
