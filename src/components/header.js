@@ -8,6 +8,20 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="subtitle" > <span role="img" aria-label="sheep">💳</span> | Stripe Element with Gatsby.js</Link>
     </div>
     <div className="navbar-end">
+    <div className="navbar-item">
+        <div className="field">
+          <p className="control">
+            <a className="bd-tw-button button" data-social-network="Npm" href="https://www.npmjs.com/package/gatsby-theme-stripe-element" style={{color:"#FB3E44"}}>
+              <span className="icon">
+                <i className="fab fa-npm"></i>
+              </span>
+              <span>
+                Package
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
       <div className="navbar-item">
         <div className="field">
           <p className="control">

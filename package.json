@@ -1,6 +1,5 @@
 {
   "name": "gatsby-theme-stripe-element",
-  "private": true,
   "description": "💳 Simple demonstration of stripe element integration with Gatsby ",
   "version": "0.1.0",
   "author": "Alexis Lepresle <contact@alexislepresle.com> (contact@alexislepresle.com)",
