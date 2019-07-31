@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
     <div className="navbar-item">
         <div className="field">
           <p className="control">
-            <a className="bd-tw-button button" data-social-network="Npm" href="https://www.npmjs.com/package/gatsby-theme-stripe-element" style={{color:"#FB3E44"}}>
+            <a className="bd-tw-button button is-danger" data-social-network="Npm" href="https://www.npmjs.com/package/gatsby-theme-stripe-element">
               <span className="icon">
                 <i className="fab fa-npm"></i>
               </span>
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
       <div className="navbar-item">
         <div className="field">
           <p className="control">
-            <a className="bd-tw-button button" data-social-network="Github" href="https://github.com/alexislepresle/gatsby-stripe-element">
+            <a className="bd-tw-button button is-dark" data-social-network="Github" href="https://github.com/alexislepresle/gatsby-stripe-element">
               <span className="icon">
                 <i className="fab fa-github"></i>
               </span>
