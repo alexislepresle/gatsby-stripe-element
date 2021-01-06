@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Alexis Lepresle <contact@alexislepresle.com> (contact@alexislepresle.com)",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bulma": "^0.7.5",
     "gatsby": "^2.13.13",
     "gatsby-image": "^2.2.4",
